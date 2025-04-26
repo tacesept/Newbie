@@ -1,4 +1,4 @@
-# Results Summary Component
+#  Huddle landing page
 
 [Live Site](https://graceful-pegasus-c10769.netlify.app/)
 
