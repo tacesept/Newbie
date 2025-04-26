@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+body {
+  background-image: url("/images/bg-desktop.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: hsl(257, 40%, 49%);
+  font-family: "Poppins", sans-serif;
+}
+
+@media (max-width: 768px) {
+  body {
+    background-image: url("/images/bg-mobile.svg");
+    background-size: cover;
+    background-position: center;
+  }
+}
+
+p {
+  font-family: "Open Sans", sans-serif;
+}
+
+@layer components {
+  .btn {
+    @apply mt-2 px-18 md:px-16 py-3 md:py-4 rounded-full bg-white text-black hover:text-white
+          cursor-pointer hover:bg-[#E880E8] transition-all duration-300;
+  }
+
+  .footer-icon {
+    @apply text-xl text-white hover:text-[#E880E8] transition-all duration-300 cursor-pointer;
+  }
+}
