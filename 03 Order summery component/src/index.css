@@ -1,0 +1,23 @@
+@import "tailwindcss"; 
+
+@layer base {
+  button {
+    cursor: pointer;
+    color: #717FA6;
+    
+  }
+
+  h1, h2 {
+    color: #1f2f56;
+  }
+
+  p {
+    color: #717FA6;
+  }
+  
+  a {
+    color: #382AE1;
+    text-decoration: underline;
+  }
+  
+}
