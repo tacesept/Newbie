@@ -1,4 +1,4 @@
-# Profile Card Component
+# Single Price Grid Component
 
 [Live Site](https://willowy-sunburst-0592cf.netlify.app/)
 
