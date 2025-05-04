@@ -1,3 +1,5 @@
 1.  Results summary - [Live Demo](https://graceful-pegasus-c10769.netlify.app/)
 2.  Huddle landing page - [Live Demo](https://calm-wisp-f091a2.netlify.app/)
 3.  Order Summery Component - [Live Demo](https://rad-frangipane-9ea733.netlify.app/)
+4.  Profile Card Component - [Live Demo](https://ornate-zabaione-edb495.netlify.app/)
+5.  Single Price Grid Component - [Live Demo](https://willowy-sunburst-0592cf.netlify.app/)
