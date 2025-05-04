@@ -1,0 +1,49 @@
+@import "tailwindcss";
+
+body {
+  font-family: "Karla", sans-serif;
+}
+
+@theme {
+  --color-main-bg: #e6eff5;
+  --color-green: #2ab3b1;
+  --color-light-green: #c7e9e8;
+  --color-f-green: #c0df33;
+  --color-f-gray: #9aa7be;
+  --shadow-btn: 0 10px 10px 0 rgba(0, 0, 0, 0.1); 
+
+  --animate-slide-down: slide-down 1s ease-out;
+  --animate-slide-to-right: slide-to-right 1s ease-out;
+  --animate-slide-to-left: slide-to-left 1s ease-out;
+  @keyframes slide-down {
+    from {
+      opacity: 0;
+      transform: translateY(-100px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0px);
+    }
+  }
+  @keyframes slide-to-right {
+    from {
+      opacity: 0;
+      transform: translateX(-100px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0px);
+    }
+  }
+  @keyframes slide-to-left {
+    from {
+      opacity: 0;
+      transform: translateX(100px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0px);
+    }
+  }
+  
+}
